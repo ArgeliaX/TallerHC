@@ -1,0 +1,29 @@
+
+Creación y enlace de repositorios git:
+
+1.	mkdir practica1
+	cd practica1
+
+2.	echo "# Taller HC" >> README
+
+3.	git init
+
+4.	git add README
+
+5.	git commit -m "Primer commit"
+
+6. 	git remote add origin https://github.com/ArgeliaX/TallerHC.git
+
+7.	git push -u origin master
+
+Subir archivos:
+
+1.    cd practica1
+
+2.    git add Ejercicio1.txt
+      git add Ejercicio2.txt
+
+3.    git commit -m "Agregar archivo existente Ej1"
+      git commit -m "Agregar archivo existente Ej1"
+
+4.    git push origin master
