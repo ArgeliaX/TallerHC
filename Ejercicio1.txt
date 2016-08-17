@@ -1,0 +1,32 @@
+
+
+1. ls /var/log/s*.log
+
+2. 	cd /
+	ls s*.log
+
+	cd /usr/share/
+	ls s*.log
+
+	cd /facultad/calculo/ayudantia/
+	ls s*.log
+
+    	cd /usr/local/bin/
+	ls s*.log	
+
+3. mkdir -p miPractica/archivo miPractica/usuario
+
+4. ls -l ~/miPractica >> ~/miPractica/archivo/raizArchivos.dat
+
+5. chmod u=rw, g=r, o=r miPractica miPractica/archivo miPractica/usuario
+
+6. chmod u=rw, g=-, o=- miPractica miPractica/archivo miPractica/usuario
+
+7. cp -r miPractica ejercicios
+
+8.rm -r miPractica
+
+
+
+
+
